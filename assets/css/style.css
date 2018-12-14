@@ -2,15 +2,32 @@
   width: 220px;
   height: 160px;
   border: 5px green solid;
+  background: white;
   float: left;
+  margin: 4px 2px;
 }
 
 .enemy-card {
   width: 220px;
   height: 160px;
   border: 5px black solid;
-  float: left;
   background: red;
+  float: left;
+  margin: 4px 2px;
+}
+
+.fight-card {
+  width: 220px;
+  height: 160px;
+  border: 5px red solid;
+  background: black;
+  float: left;
+  margin: 4px 2px;
+  color: red;
+}
+
+body {
+  margin-left: 20px;
 }
 
 img {
@@ -21,11 +38,25 @@ img {
   margin: 0 auto;
 }
 
+h1 {
+  color: white;
+  font-size: 35px;
+  text-shadow: 0 2px 8px black;
+  margin: 10px;
+}
+
 h2 {
   clear:  both;
+  color: white;
 }
 
 h3 {
   padding: 5px;
   text-align: center;
+}
+
+button {
+  float: left;
+  clear: both;
+  margin: 5px;
 }
